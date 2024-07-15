@@ -17,7 +17,7 @@ class ActivityServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('activity')
+            ->name('aura-cms-activity')
             ->hasViews();
     }
 }
