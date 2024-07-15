@@ -54,7 +54,7 @@ Fields to be logged can be defined in the resource:
     'type' => 'Aura\\Base\\Fields\\View',
     'validation' => '',
     'on_view' => true,
-    'view' => 'activity::activity',
+    'view' => 'aura-cms-activity::activity',
 
     'slug' => 'aktivitaet',
 ],
