@@ -1,12 +1,12 @@
 {
-    "name": "aura/activity",
+    "name": "eminiarts/aura-cms-activity",
     "description": "Aura CMS Plugin: activity",
     "keywords": [
         "aura",
         "laravel",
         "activity"
     ],
-    "homepage": "https://github.com/aura/activity",
+    "homepage": "https://github.com/eminiarts/aura-cms-activity",
     "license": "MIT",
     "authors": [{
         "name": "Bajram Emini",
