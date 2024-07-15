@@ -5,7 +5,7 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/eminiarts/aura-cms-activity/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/eminiarts/aura-cms-activity/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/eminiarts/aura-cms-activity.svg?style=flat-square)](https://packagist.org/packages/eminiarts/aura-cms-activity)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+This Package is a Plugin for the Aura CMS. It logs activities of the resources using [spatie's activitylog package](https://github.com/spatie/laravel-activitylog).
 
 
 ## Installation
