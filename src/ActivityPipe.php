@@ -14,7 +14,12 @@ class ActivityPipe implements LoggablePipe
     public function handle(EventLogBag $event, Closure $next): EventLogBag
     {
         Arr::set($event->changes, 'attributes.fields', $event->model->metaFields);
-        Arr::set($event->changes, 'old.fields', $event->model->meta->pluck('value', 'key')->toArray());
+        
+        if ($event->model->meta) {
+            Arr::set($event->changes, 'old.fields', $event->model->meta->pluck('value', 'key')->toArray());
+        } else {
+            Arr::set($event->changes, 'old.fields', []);
+        }
 
         return $next($event);
     }

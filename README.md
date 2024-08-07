@@ -65,7 +65,7 @@ Fields to be logged can be defined in the resource:
 Optionally, you can publish the views using
 
 ```bash
-php artisan vendor:publish --tag="activity-views"
+php artisan vendor:publish --tag="aura-cms-activity-views"
 ```
 
 

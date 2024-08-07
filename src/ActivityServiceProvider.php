@@ -2,7 +2,6 @@
 
 namespace Aura\Activity;
 
-use Aura\Activity\Commands\ActivityCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
